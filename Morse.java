@@ -56,7 +56,7 @@ public class Morse {
 
     public String decodeFrase(String frase) {
         StringBuilder fraseDecodificada = new StringBuilder();
-        String[] morse = frase.split("   ");
+        String[] morse = frase.split(" / ");
 
         for(String palavra : morse){
             String[] letras = palavra.split(" ");
