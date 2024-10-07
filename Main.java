@@ -55,6 +55,9 @@ public class Main {
             String fraseNormal = morse.decodeFrase(frase);
             System.out.println("Traducao: " + fraseNormal);
         }
+
+        System.out.println("Print da Árvore Morse:");
+        morse.printStructuredTree();
     }
-    
+
 }

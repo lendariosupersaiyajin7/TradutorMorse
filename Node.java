@@ -9,5 +9,5 @@ public class Node {
         this.esquerda = null;
         this.direita = null;
     }
-    
+
 }
